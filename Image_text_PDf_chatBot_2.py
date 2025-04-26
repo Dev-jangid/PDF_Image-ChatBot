@@ -246,8 +246,8 @@ def extract_object_from_query(query: str) -> str:
     return match.group(1).strip() if match else None
 
 def main():
-    st.set_page_config(page_title="Final_s5", layout="wide")
-    st.title("📖 Document Visual Explorer")
+    st.set_page_config(page_title="Image_text_PDf_chatBot_2", layout="wide")
+    st.title("📖 Image_text_PDf_chatBot_2")
     st.caption("Intelligent document analysis with multi-modal understanding")
     
     # Session state initialization
