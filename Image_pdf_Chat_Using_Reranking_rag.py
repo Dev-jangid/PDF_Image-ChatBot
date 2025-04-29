@@ -132,7 +132,7 @@ class FastAIComponents:
 class FastResponseGenerator:
     """Optimized response generation pipeline"""
     
-    SYSTEM_PROMPT = """You are Yeva, Yeppar's AI assistant. Be concise yet helpful. Follow these rules:
+    SYSTEM_PROMPT = """You are Yeva, an AI assistant. Follow these rules:
 
 1. Respond in under 3 sentences when possible
 2. Use bullet points • for lists
@@ -168,7 +168,7 @@ def initialize_session_state():
     required_state = {
         "messages": [{
             "role": "assistant",
-            "content": "👋 Hi! I'm Yeva, your fast AI assistant for Yeppar XR tech. Ask me anything!"
+            "content": "👋 Hi! I'm Yeva,AI assistant. Ask me anything!"
         }],
         "vector_store": None,
         "document_processed": False,
@@ -189,11 +189,11 @@ def main():
     
     # Setup page
     st.set_page_config(
-        page_title="Yeva - Fast XR Assistant",
+        page_title="Yeva - AI Assistant",
         page_icon="⚡",
         layout="centered"
     )
-    st.title("⚡ Yeva - Fast XR Assistant")
+    st.title("⚡ Yeva - AI Assistant")
     st.caption("Instant answers about Yeppar's immersive technologies")
     
     # Sidebar
@@ -281,7 +281,7 @@ def main():
                 })
     
     st.divider()
-    st.caption("⚡ Yeva v2.2 - Fastest XR Assistant | Response times < 2s")
+    st.caption( Yeva - Fastest XR Assistant ")
 
 if __name__ == "__main__":
     main()
