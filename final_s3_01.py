@@ -174,8 +174,8 @@ def generate_response(prompt, context, client, is_image_request=False):
 
 def main():
     st.set_page_config(page_title="Final_s3_01", layout="wide")
-    st.title("📖 Image-pdf Chatbot")
-    st.caption("Intelligent document analysis with precise image handling")
+    st.title("📘Iamge-PDF Chatbot")
+    st.caption("Multi-modal document analysis with semantic understanding for text and images")
     
     # Initialize session state
     if "processed_data" not in st.session_state:
