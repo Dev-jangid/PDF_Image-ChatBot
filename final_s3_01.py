@@ -143,7 +143,13 @@ def generate_response(prompt, context, client, is_image_request=False):
         system_prompt = """You are a pdf Chat Bot. Provide:
 1. Accurate information from the document
 2. well structured responses with clear sections and required formate 
-2. do nor mention the page number in the response"""
+3. do nor mention the page number in the response
+4. If the document does not contain information relevant to the user’s query, reply with:
+“This document does not contain information related to your query.”
+Then, generate a concise, two-line response that answers the user’s question based on similar or related content.
+"""
+        # 4. If document doesn't have the info, say 'This document does not contain information related to your query and give similat suggestions the answer in 2 lines only'
+
 # 2. Clear statements about image availability when requested"""
         # 2. Page citations [Page X] for all claims
         if is_image_request:
