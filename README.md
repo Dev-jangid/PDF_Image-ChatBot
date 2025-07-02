@@ -3,8 +3,8 @@ This PDF Chatbot project uses Groq API and Hugging Face API:
 
 
 #### ChatBot Demo Links :
-1. Pdf Chat Bot  : https://pdf-chatbot-d.streamlit.app/
-2. Image_pdf ChatBot :  https://image-pdf-chatbot-fs-01.streamlit.app/        (For Live Testing)
+**1. OCR-Pdf Chat Bot  :** [https://ocr-pdf-chatbot-d.streamlit.app/](https://ocr-pdf-chatbot-d.streamlit.app/)       For Image Text extraction and Consesnol history memery
+**2. Image_pdf ChatBot** :  [https://image-pdf-chatbot-oc-s01.streamlit.app/ ](https://image-pdf-chatbot-oc-s01.streamlit.app/)       (For Live Testing)
 
 ---
 
