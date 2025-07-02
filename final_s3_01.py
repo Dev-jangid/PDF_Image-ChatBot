@@ -33,7 +33,7 @@ class Config:
     GROQ_MODEL = "llama3-70b-8192"
     IMAGE_TOP_K = 3  # Integer value
     TEXT_TOP_K = 5  # Integer value
-    MAX_TOKENS = 1200  # Integer value
+    MAX_TOKENS = 500  # Integer value
 
 @st.cache_resource
 def load_models():
